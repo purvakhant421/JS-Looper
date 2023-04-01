@@ -1,0 +1,14 @@
+    <script type="text/javascript">
+      
+        var a = 0, b = 1;
+
+        document.write("<h1>"+a+"</h1>");
+        document.write("<h1>"+b+"</h1>");
+
+        for (var i = 2; i < 10; i++) {
+            var c = a + b;
+            document.write("<h1>"+c+"</h1>");
+            a = b;
+            b = c;
+        }
+    </script>

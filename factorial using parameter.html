@@ -1,0 +1,18 @@
+
+
+    <script type="text/javascript">
+      
+      //using parameter function
+      function calculateFactorial(num, callback) {
+        var result = 1;
+            for (var i = num; i > 0; i--) {
+            result *= i;
+        }
+        callback(result);
+      }
+
+        calculateFactorial(5, function(result) {
+        document.write("The factorial of 5 is " + result);
+});
+
+    </script>
